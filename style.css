@@ -593,6 +593,14 @@ footer {
     font-size: 0.875em; /* optional: slightly smaller paragraph */
 }
 
+    /* Left-align feature lists on mobile */
+.alt-text .feature-list,
+.iltr-text .feature-list {
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
     @media (max-width: 768px) {
     .wide-image img {
         width: 95%;          /* Slightly wider for mobile */
